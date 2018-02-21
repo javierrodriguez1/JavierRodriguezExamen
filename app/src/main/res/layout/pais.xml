@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre (inglés)"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvNombreTraducido"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre(Castellano)"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvClave"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Clave:"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Capital:"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvContinente"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Continente:"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tvPoblacion"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Población:"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tvLatitud"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Latitud:"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tvLongitud"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Longitud:"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/tvPaisesFronterizos"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Países Fronterizos:"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
